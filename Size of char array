@@ -1,0 +1,13 @@
+
+int Size(char Array[])
+{
+    int i = 0 ;
+    int size = 0;
+    while (Array[i] != '\0')
+    {
+        size++;
+        i++;
+ 
+    }
+    return size;
+}
